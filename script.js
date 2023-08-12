@@ -29,7 +29,7 @@ async function searchQuery(){
 //showing image if error comes
 function handleError(){
     const err = document.querySelector(".error");
-    err.innerHTMl = '';
+    err.innerHTML = '';
     const img = document.createElement('img');
     img.src = "Error-handle.png";
     img.alt = "Something Went Wrong";
